@@ -1,6 +1,8 @@
 :root{
   --vermelho: #E50914;
   --preto: #141414;
+  --branco: #FFF;
+  --cinza: #AAA;
 }
 
 *{
@@ -12,7 +14,7 @@
 body{
   background-color: var(--preto);
   font-family: 'Arial', Helvetica, sans-serif;
-  color: #FFF;
+  color: var(--branco);
 }
 
 header .container{
@@ -32,26 +34,68 @@ header .logo{
 
 header nav a{
   text-decoration:none;
-  color:#AAA;
+  color: var(--cinza);
   margin-right: 10px;
 }
 
 
 header nav a:hover{
-  color:#fff;
+  color: var(--branco);
 }
 
 .livro-principal{
-  font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/dom-casmurro.png');
+  font-size:18px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/dom-casmurro.png');
 
-    height:450px;
-    background-size:cover;
+  height:450px;
+  background-size:cover;
  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+}
 
+.livro-principal .descricao{
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  max-width: 530px;
+}
+
+.livro-principal .titulo{
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+  background-color: rgba(0,0,0,.50);
+  border:none;
+  color: var(--branco);
+
+  padding:15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.botao:hover{
+  background-color: var(--branco);
+  color: var(--preto);
+}
+
+.botao i{
+  margin-right: 8px;
+}
+
+.container{
+  margin-left: 20px;
+}
+
+.livro-principal .container{
+  width: 70%;
 }

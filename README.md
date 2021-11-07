@@ -2,9 +2,9 @@
 
 ### Trata-se de um desafio proposto pelo instrutor Felipe Aguiar da Digital Innovation One para o treinamento de HTML5, CSS3 e Javascript
 
-Neste projeto foi criado o Bookflix, ou seja, uma Netflix de livros. Nelo o usuário pode selecionar o livro desejado na página principal ou navegar pelas seções: Clássicos, Infantis ou Didáticos. Ao clicar sobre um livro, o usuário é redirecionado para uma página onde poderá se deliciar aproveitando uma excelente leitura.
+Neste projeto foi criado o Bookflix, ou seja, uma Netflix de livros. Nele o usuário pode selecionar o livro desejado na página principal ou navegar pelas seções: Clássicos, Infantis ou Didáticos. Ao clicar sobre um livro, o usuário é redirecionado para uma página onde poderá se deliciar aproveitando uma excelente leitura.
 
-O veja a uma demostração do projeto neste [video](https://youtu.be/RfmggPMzG_s).
+Veja uma demostração do projeto neste [video](https://youtu.be/RfmggPMzG_s).
 
 ---
 <h2><span style="color: red; border-bottom: solid">Observação</span></h2>

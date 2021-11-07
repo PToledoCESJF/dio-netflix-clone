@@ -99,3 +99,14 @@ header nav a:hover{
 .livro-principal .container{
   width: 70%;
 }
+
+.box-livro{
+  max-height: 400px;
+  max-width: 350px;
+  display: block;
+  cursor: pointer;
+}
+
+.carrocel-livros{
+  margin-top:15px;
+}

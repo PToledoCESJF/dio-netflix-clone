@@ -47,7 +47,7 @@ header nav a:hover{
   font-size:18px;
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/dom-casmurro.png');
 
-  height:450px;
+  height:800px;
   background-size:cover;
  
   display: flex;

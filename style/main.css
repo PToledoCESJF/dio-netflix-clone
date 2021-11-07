@@ -103,6 +103,13 @@ header .current-page{
   width: 70%;
 }
 
+.creditos{
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #9acd32;
+}
+
 .box-livro {
   max-height: 400px;
   max-width: 350px;

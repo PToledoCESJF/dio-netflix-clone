@@ -1,0 +1,1 @@
+# Projeto que consiste na criação de um clone do Netflix

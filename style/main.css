@@ -24,6 +24,10 @@ header .container {
   justify-content: space-between;
 }
 
+header .container a {
+  text-decoration: none;
+}
+
 header .logo {
   margin-left: 5px;
   color: var(--vermelho);
@@ -41,9 +45,15 @@ header nav a:hover {
   color: var(--branco);
 }
 
+header .current-page{
+  padding-bottom: 4px;
+  color: var(--vermelho);
+  border-bottom-style: solid;
+}
+
 .livro-principal {
   font-size: 18px;
-  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/dom-casmurro.png');
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/dom-casmurro.svg');
   height: 800px;
   background-size: cover;
   display: flex;
